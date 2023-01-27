@@ -1,0 +1,75 @@
+
+body {
+  font-family: 'Montserrat';
+  background-color: #434343;
+  color: #fff;
+  padding: 5rem;
+}
+ 
+.text-container {
+  margin-bottom: 4rem;
+}
+
+
+.inner-container {
+  width: 50%;
+}
+
+.inner-container p{
+  font-size: 1rem
+}
+
+p {
+font-weight: lighter;
+}
+
+.kitten-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h2 {
+font-weight: lighter;
+}
+
+.kitten-container .kitten-wrapper {
+  width: 49%;
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3rem;
+
+  /*centrar*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.kitten-container .kitten-wrapper .layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#hugito {
+	background-image: url(./Hugito.jpeg);
+}
+
+#rafael {
+	background-image: url(./Rafael.jpeg);
+}
+
+#miguelito {
+	background-image: url(./miguelito.jpeg);
+}
+
+#oscarcito {
+	background-image: url(./oscarcito.jpeg);
+}
